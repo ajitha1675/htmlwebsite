@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+body{
+    background: rgba(0,0,0,0.5) url('images/th\ \(1\).jpeg') center center fixed;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+  }
+
+ .Reg-btn{
+    background-color: rgb(211, 89, 45);
+    border-color: none;
+    border-style: solid;
+    border-width: 1px;
+    color:aqua;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+     color: 0.15s;
+}
+.Reg-btn:hover{
+        opacity: 0.2;
+}
+.Reg-btn:active{
+       opacity: 0.5;
+}
+
+.Can-btn{
+    background-color: rgb(211, 89, 45);
+    border-color: none;
+    border-style: solid;
+    border-width: 1px;
+    color:aqua;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+    color: 0.15s;
+}
+.Can-btn:hover{
+    opacity: 0.2;
+}
+.Can-btn:active{
+    opacity: 0.5;
+}

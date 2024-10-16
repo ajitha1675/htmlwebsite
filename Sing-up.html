@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sign up</title>
+<link rel="icon" href="images/download.png">
+</head>
+<header>
+<style>
+ 
+  nav {
+    background-color: yellow;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+    display: inline-block;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+</style>
+<nav>
+    <ul>
+        <li><a href="Sing-up.html">Home</a></li>
+        <li><a href="Products.html">Products</a></li>
+        <li><a href="#Contact us">Contact us</a></li>
+    </ul>
+</nav>
+<center>
+    <br/> <br/>
+    <form action="Products.html" onsubmit="submitform()" enctype="multipart/form-data">
+      <div>
+        <label>Name:</label>
+        <input type="text" name="Studentname" id="Name" class="form-group" placeholder="name" /><br/><br/>
+        <label>Email:</label> 
+        <input type="email" name="email" id="name" class="form-group" placeholder="Email" /><br/><br/>
+        <label>Password:</label> 
+        <input type="password" name="Studentname" id="Name" class="form-group" placeholder="password" /><br/><br/>
+        <label>Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="1234567890" required><br/><br/>
+        <label>Gender:</label> 
+        <input type="radio" name="gender"></td>Male
+        <input type="radio" name="gender"></td>Female<br/><br/>
+        <label>Search:</label>
+        <input type="search" name="query" placeholder="Enter search items" required><br/><br/>
+        <label>About us:</label> 
+        <textarea rows=""5 cols="10"></textarea><br/><br/>
+        <label>Date</label>
+        <input type="datetime-local" id="Date"placeholder="Date"><br/><br/>
+        <label>Categories:</label>
+        <select>
+            <option value="Men">Men</option>
+            <option value="Women">Women</option>
+            <option value="Children">Children</option>
+            <option value="Appliance">Appliances</option>
+            <option value="Home">Home</option>
+            <option value="electronics">Electonics</option>
+        </select><br/><br/>
+        <label>Upload File</label>
+        <input type="file" id="file"name="file" accept="jpg, jpeg, pdf, png" ><br/> <br/>
+        <button class="sub-btn">Submit</button>&nbsp; &nbsp; &nbsp;&nbsp;<button>Cancel</button>
+       
+</center>
+<footer>
+  <center>
+    <h1>Contact us</h1>
+    <h4>+91 657982346  amazonstore22@gmail.com</h4>
+    <h6>@amazon.com</h6>
+</center>
+</footer>
+</body>
+</html>
